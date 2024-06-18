@@ -1,17 +1,20 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
-
-const inter = Inter({ subsets: ["latin"] });
+import Footer from "./Components/Footer";
 
 export const metadata = {
-  title: "Create Next App",
-  description: "an open source google clone built with Next.js and Tailwind CSS.",
+  title: 'Google Clone',
+  description:
+    'An open source Google clone built with Next.js and Tailwind CSS.',
 };
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang='en'>
+      <body className='relative min-h-screen'>
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }
