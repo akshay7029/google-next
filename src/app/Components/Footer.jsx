@@ -18,7 +18,6 @@ export default function Footer() {
                 <li className='hover:underline cursor-pointer'>Privacy</li>
                 <li className='hover:underline cursor-pointer'>Terms</li>
                 <li className='hover:underline cursor-pointer'>Setting</li>
-                <li className='hover:underline cursor-pointer'>How Search Works</li>
             </ul>
         </div>
     </footer>
